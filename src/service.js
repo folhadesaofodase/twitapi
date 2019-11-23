@@ -34,6 +34,7 @@ const twit = async msg => {
 	console.log('Sending tweet')
 	await page.click('.css-18t94o4.css-1dbjc4n.r-urgr8i.r-42olwf.r-sdzlij.r-1phboty.r-rs99b7.r-1w2pmg.r-1n0xq6e.r-1vuscfd.r-1dhvaqw.r-1fneopy.r-o7ynqc.r-6416eg.r-lrvibr')
 	await browser.close()
+	console.log('Tweet Sent!')
 }
 
 export default { twit }
