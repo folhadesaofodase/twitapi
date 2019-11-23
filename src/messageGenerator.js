@@ -1,24 +1,24 @@
 let messages = [
   obj =>
-    `No mes de ${obj.month} de ${obj.year} nós gastamos ${obj.value} em ${obj.field}`,
+    `No mes de ${obj.month} de ${obj.year} nós gastamos R$ ${obj.value} em ${obj.field}. GRANDE DIA \u1f448 \u1f448!`,
   obj =>
-    `Em ${obj.month} de ${obj.year}, foi investido pelo governo ${obj.value} destinado à ${obj.field}, e não estamos vendo chegar esse investimeto na educação atual`,
+    `Em ${obj.month} de ${obj.year}, foi investido pelo governo R$ ${obj.value} destinado à ${obj.field}, GRANDE DIA \u1f448 \u1f448!`,
   obj =>
-    `Nesse ano de ${obj.year}, foi envestido um total de ${obj.value}, destinado à ${obj.field}`,
+    `Nesse ano de ${obj.year}, foi envestido um total de R$ ${obj.value}, destinado à ${obj.field}. GRANDE DIA \u1f448 \u1f448!`,
   obj =>
-    `No mês de ${obj.month} de ${obj.year}, nós torramos ${obj.value} em ${obj.field}, pague mais impostos para nós. BRASIL!`,
+    `No mês de ${obj.month} de ${obj.year}, nós torramos R$ ${obj.value} em ${obj.field}. GRANDE DIA \u1f448 \u1f448!!`,
   obj =>
-    `No mês de ${obj.month}, nos orgulhamos de gastar ${obj.value} em ${obj.field}, GRANDE DIA!`,
+    `No mês de ${obj.month}, nos orgulhamos de gastar R$ ${obj.value} em ${obj.field}, GRANDE DIA \u1f448 \u1f448!`,
   obj =>
-    `Em ${obj.month} de ${obj.year}, para ${obj.field} gastamos ${obj.value}, por favor pague mais impostos para nós. BRASIL!`,
+    `Em ${obj.month} de ${obj.year}, para ${obj.field} gastamos R$ ${obj.value}. GRANDE DIA \u1f448 \u1f448!`,
   obj =>
-    `No mês de ${obj.month} de ${obj.year}, gastamos ${obj.value} em ${obj.field}, ATÉ QUE ENFIM VOCÊS TIRARAM A MÃO DO BOLSO, BRASIL!`,
+    `No mês de ${obj.month} de ${obj.year}, gastamos R$ ${obj.value} em ${obj.field}, GRANDE DIA \u1f448 \u1f448!`,
   obj =>
-    `Em ${obj.year} no mês de ${obj.month}, investimos R$ ${obj.value} em ${obj.field}, OBRIGADO CAPITALISTAS OPRESSORES, PAPAI AGRADECE.`,
+    `Em ${obj.year} no mês de ${obj.month}, investimos R$ ${obj.value} em ${obj.field}, obrigado capitalistas opressores, GRANDE DIA \u1f448 \u1f448!.`,
   obj =>
-    `No mês de ${obj.month} de ${obj.year}, cuidamos muito bem do seu ${obj.value} em um ${obj.field}, então por favor trabalhe mais para nós, BRASIL!`,
+    `No mês de ${obj.month} de ${obj.year}, cuidamos muito bem do seu R$ ${obj.value} em um ${obj.field}, GRANDE DIA \u1f448 \u1f448!`,
   obj =>
-    `No mês de ${obj.month} de ${obj.year} jogamos fora ${obj.value} em ${obj.field}, por favor ajude mais nossos campos agora, BRASIL!`
+    `No mês de ${obj.month} de ${obj.year} jogamos fora R$ ${obj.value} em ${obj.field} GRANDE DIA \u1f448 \u1f448!`
 ];
 
 export default obj => {
