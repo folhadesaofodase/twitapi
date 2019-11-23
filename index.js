@@ -1,16 +1,22 @@
-import express from "express";
-import bodyParser from "body-parser";
-import service from "./src/service";
-import { resolve } from "dns";
-const app = express();
-app.use(bodyParser.json());
+import dotenv from 'dotenv'
+dotenv.config()
 
-app.post("/twit", async function(req, res) {
-  console.log(req.body)
-  const success = await service.tweet(req.body)
-  if (success) return res.sendStatus(200);
-  res.sendStatus(500);
-  res.send('Erro ao twittar!')
-});
+import express from 'express'
+import service from './src/service'
 
-app.listen(3000, '0.0.0.0');
+const app = express()
+app.use(express.json())
+
+app.post('/twit', async function(req, res) {
+	try {
+		await service.twit(req.body)
+		res.send('Boa negão')
+	} catch(err) {
+		console.log(err)
+		res.status(400).send(err)
+	}
+})
+
+app.listen(3000, () => {
+	console.log('SAAAAAAAAAAAAAS')
+})
