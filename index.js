@@ -9,7 +9,10 @@ app.use(express.json())
 
 app.post('/twit', async function(req, res) {
 	try {
-    const message = messageGen(req.body)
+		console.log(req.body)
+    	const message = messageGen(req.body)
+
+    	console.log(message)
 		await service.twit(message)
 		res.send('Boa negão')
 	} catch(err) {
