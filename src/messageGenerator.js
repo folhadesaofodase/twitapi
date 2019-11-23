@@ -8,7 +8,7 @@ let messages = [
   obj =>
     `No mês de ${obj.month} de ${obj.year}, nós torramos ${obj.value} em ${obj.field}, pague mais impostos para nós. BRASIL!`,
   obj =>
-    `No mês de ${obj.month}, nos orgulhamos de gastar ${obj.value} em ${obj.field}, BRASIL UM PAÍS DE CORRUPTOS!`,
+    `No mês de ${obj.month}, nos orgulhamos de gastar ${obj.value} em ${obj.field}, GRANDE DIA!`,
   obj =>
     `Em ${obj.month} de ${obj.year}, para ${obj.field} gastamos ${obj.value}, por favor pague mais impostos para nós. BRASIL!`,
   obj =>
@@ -18,9 +18,7 @@ let messages = [
   obj =>
     `No mês de ${obj.month} de ${obj.year}, cuidamos muito bem do seu ${obj.value} em um ${obj.field}, então por favor trabalhe mais para nós, BRASIL!`,
   obj =>
-    `No mês de ${obj.month} de ${obj.year} conseguimos muito ${obj.value} através do seu ${obj.field}, saiba fazer mais coisas melhores, BRASIL!`,
-  obj =>
-    `No mês de ${obj.month} de ${obj.year} queremos mais ${obj.value} em nossos ${obj.field}, por favor ajude mais nossos campos agora, BRASIL!`
+    `No mês de ${obj.month} de ${obj.year} jogamos fora ${obj.value} em ${obj.field}, por favor ajude mais nossos campos agora, BRASIL!`
 ];
 
 export default obj => {
