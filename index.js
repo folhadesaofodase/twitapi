@@ -1,15 +1,16 @@
-import dotenv from 'dotenv'
-dotenv.config()
-
 import express from 'express'
 import service from './src/service'
+import messageGen from './src/messageGenerator'
+import dotenv from 'dotenv'
 
+dotenv.config()
 const app = express()
 app.use(express.json())
 
 app.post('/twit', async function(req, res) {
 	try {
-		await service.twit(req.body)
+    const message = messageGen(req.body)
+		await service.twit(message)
 		res.send('Boa negão')
 	} catch(err) {
 		console.log(err)
