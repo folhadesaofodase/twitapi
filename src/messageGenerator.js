@@ -6,7 +6,7 @@ let messages = [
   obj =>
     `Nesse ano de ${obj.year}, foi envestido um total de R$ ${obj.value}, destinado à ${obj.field}. GRANDE DIA 👈 👈!`,
   obj =>
-    `No mês de ${obj.month} de ${obj.year}, nós torramos R$ ${obj.value} em ${obj.field}. GRANDE DIA 👈 👈!!`,
+    `No mês de ${obj.month} de ${obj.year}, nós torramos em ${obj.field} R$ ${obj.value}. GRANDE DIA 👈 👈!!`,
   obj =>
     `No mês de ${obj.month}, nos orgulhamos de gastar R$ ${obj.value} em ${obj.field}, GRANDE DIA 👈 👈!`,
   obj =>
@@ -16,7 +16,7 @@ let messages = [
   obj =>
     `Em ${obj.year} no mês de ${obj.month}, investimos R$ ${obj.value} em ${obj.field}, obrigado capitalistas opressores, GRANDE DIA 👈 👈!.`,
   obj =>
-    `No mês de ${obj.month} de ${obj.year}, cuidamos muito bem do seu R$ ${obj.value} em um ${obj.field}, GRANDE DIA 👈 👈!`,
+    `No mês de ${obj.month} de ${obj.year}, aplicamos R$ ${obj.value} em ${obj.field}, GRANDE DIA 👈 👈!`,
   obj =>
     `No mês de ${obj.month} de ${obj.year} jogamos fora R$ ${obj.value} em ${obj.field} GRANDE DIA 👈 👈!`
 ];
